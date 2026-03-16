@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 function Tarefa({ tarefa, excluir, alternar, editar }) {
 
   const [editando, setEditando] = useState(false);
