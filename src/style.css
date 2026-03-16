@@ -1,0 +1,17 @@
+.app-container {
+    max-width: 500px; 
+    margin: 2rem auto; 
+    font-family: sans-serif; 
+}
+
+
+.form-tarefa { 
+    display: flex; 
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+
+.form-tarefa input[type="text"] {
+    flex: 1; 
+    padding: 8px; 
+}
