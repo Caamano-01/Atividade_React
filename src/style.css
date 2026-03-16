@@ -15,3 +15,28 @@
     flex: 1; 
     padding: 8px; 
 }
+
+.tarefa-card { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tarefa-card.concluida {
+    opacity: 0.6; 
+    text-decoration: 
+    line-through; 
+}
+
+.btn-excluir { 
+    background: #ff4d4d; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+}
